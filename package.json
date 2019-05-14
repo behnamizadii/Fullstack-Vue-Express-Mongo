@@ -1,0 +1,30 @@
+{
+  "name": "fullstack-vue-express-mongo",
+  "version": "1.0.0",
+  "description": "vue express mongo training project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js",
+    "start:watched": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/behnamizadii/Fullstack-Vue-Express-Mongo.git"
+  },
+  "author": "ben",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/behnamizadii/Fullstack-Vue-Express-Mongo/issues"
+  },
+  "homepage": "https://github.com/behnamizadii/Fullstack-Vue-Express-Mongo#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongodb": "^3.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
