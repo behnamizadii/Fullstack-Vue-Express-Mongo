@@ -1,3 +1,6 @@
+//when you want to deploy to heroku add client to git ignore
+//because you want to deploy the built version of vue
+
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
